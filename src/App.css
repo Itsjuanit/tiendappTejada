@@ -9,12 +9,12 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 5s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #121212;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,8 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #e0ff00;
+  margin-bottom: 20px;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +36,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.juani{
+  width: 100vw;
+  background-color: #121212;
+  height: 20px;
+  color: #e0ff00;
 }
